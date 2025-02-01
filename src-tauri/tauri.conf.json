@@ -67,7 +67,7 @@
       "resources/*"
     ],
     "shortDescription": "",
-    "targets": ["deb", "appimage", "nsis", "app", "dmg", "updater"],
+    "targets": ["deb", "appimage", "nsis", "app", "dmg"],
     "windows": {
       "certificateThumbprint": null,
       "digestAlgorithm": "sha256",
