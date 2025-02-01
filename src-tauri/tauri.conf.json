@@ -26,7 +26,7 @@
       "endpoints": [
         "https://github.com/yetone/openai-translator/releases/latest/download/latest.json"
       ],
-      "active": true,
+      "active": false,
       "windows": {
         "installMode": "passive"
       },
