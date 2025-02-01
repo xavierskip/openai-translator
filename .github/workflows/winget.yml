@@ -4,6 +4,8 @@ on:
     types: [released]
 jobs:
   publish:
+    # not build
+    if: false
     # Action can only be run on windows
     runs-on: windows-latest
     steps:
