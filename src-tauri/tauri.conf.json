@@ -26,7 +26,7 @@
       "endpoints": [
         "https://github.com/yetone/openai-translator/releases/latest/download/latest.json"
       ],
-      "active": false,
+      "active": true,
       "windows": {
         "installMode": "passive"
       },
@@ -35,6 +35,7 @@
   },
   "bundle": {
     "active": true,
+    "createUpdaterArtifacts": false,
     "linux": {
       "deb": {
         "depends": [
@@ -67,7 +68,7 @@
       "resources/*"
     ],
     "shortDescription": "",
-    "targets": ["deb", "appimage", "nsis", "app", "dmg"],
+    "targets": ["deb", "appimage", "nsis", "app", "dmg", "updater"],
     "windows": {
       "certificateThumbprint": null,
       "digestAlgorithm": "sha256",
